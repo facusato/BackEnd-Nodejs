@@ -4,8 +4,7 @@
   "description": "Mean Api",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon ."
-
+    "dev": "nodemon ."
   },
   "author": "Facu",
   "license": "ISC",
@@ -13,6 +12,7 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^12.0.3",
     "express": "^4.17.2",
     "mongoose": "^6.1.6"
